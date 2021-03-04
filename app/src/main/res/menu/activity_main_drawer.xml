@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_my_account"
+            android:icon="@drawable/account"
+            android:title="@string/std_account" />
+
+        <item
+            android:id="@+id/nav_library"
+            android:icon="@drawable/book"
+            android:title="@string/library" />
+
+        <item
+            android:id="@+id/nav_scholarship"
+            android:icon="@drawable/scolarship"
+            android:title="@string/scholarship" />
+
+        <item
+            android:id="@+id/nav_gallery"
+            android:icon="@drawable/admission"
+            android:title="@string/admission" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="@string/menu_slideshow" />
+    </group>
+
+
+</menu>

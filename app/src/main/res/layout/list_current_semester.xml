@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:background="#79BBF6"
+        android:orientation="vertical"
+        android:outlineAmbientShadowColor="@color/color10"
+        android:outlineSpotShadowColor="@color/black"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/course_code"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/std_code"
+            android:textColor="@color/color10"
+            android:textSize="@dimen/space_20" />
+
+        <TextView
+            android:id="@+id/course_course"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/std_course"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_15" />
+
+        <TextView
+            android:id="@+id/course_marks"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end"
+            android:text="@string/std_marks"
+            android:textColor="@color/black"
+            android:textSize="@dimen/space_20" />
+    </LinearLayout>
+
+</android.widget.LinearLayout>

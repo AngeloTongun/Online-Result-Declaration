@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">AIDLS</string>
+    <string name="title_activity_home">HomeActivity</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+    <string name="login">Login</string>
+    <string name="aidls">AIDLS</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="enterpw">Enter Password</string>
+    <string name="enterun">Enter Username</string>
+    <string name="title_activity_home_">Home_Activity</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">StudentQuery@aidls-southsudan.net</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_gallery">Gallery</string>
+    <string name="menu_slideshow">Slideshow</string>
+
+    <string name="settings">Settings</string>
+    <string name="edit">Edit</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="user">User</string>
+    <string name="call">Call</string>
+    <string name="query">Send Complaint</string>
+    <string name="title_activity_result">ResultActivity</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+
+    <string name="Res_Dec">Result Declaration</string>
+    <string name="african_institute">Result Declaration</string>
+    <string name="bgimg">Background Image</string>
+    <string name="submit">Submit</string>
+    <string name="id_no">Enter Your Enrollment Number</string>
+    <string name="tv_Result">Welcome</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+    <string name="student_info">Student</string>
+    <string name="student_current">Current</string>
+    <string name="all_result">All</string>
+    <string name="student_info_2">Student Information</string>
+
+
+    <string name="std_name">Name :</string>
+    <string name="std_id">Id :</string>
+    <string name="std_class">Class : </string>
+    <string name="std_year">Year: </string>
+    <string name="std_dept">Dept: </string>
+
+    <string name="std_GPA">GPA :</string>
+    <string name="std_CGPA">CGPA :</string>
+    <string name="std_result">Result : </string>
+    <string name="std_result_info">Result Information</string>
+    <string name="fd_back">Student information is being displayed Here</string>
+
+
+    <string name="std_marks">Gade Point </string>
+    <string name="std_code">Code</string>
+    <string name="std_course">Course</string>
+
+    <string name="std_account">My Account </string>
+    <string name="library">Library Facility</string>
+    <string name="scholarship">Scholarship</string>
+    <string name="admission">New Admission</string>
+
+    <string name="logout">Sign Out</string>
+    <string name="contact">Institute Contacts</string>
+
+</resources>

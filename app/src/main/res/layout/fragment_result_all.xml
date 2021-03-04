@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+android:id="@+id/result_all"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="@drawable/bb_gradient"
+tools:context=".result_all">
+<TableLayout
+    android:stretchColumns="1,2,3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TableRow android:background="#1E88E5"
+        android:padding="@dimen/space_10">
+
+        <TextView
+            android:layout_width="64dp"
+            android:layout_height="wrap_content"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:text="@string/std_code"
+            android:textColor="@color/white"
+            android:textSize="@dimen/space_20" />
+
+        <TextView
+            android:textSize="@dimen/space_20"
+            android:layout_gravity="center"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:text="@string/std_course"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+        <TextView
+            android:textSize="@dimen/space_20"
+            android:textColor="@color/white"
+            android:layout_column="1"
+            android:layout_gravity="center"
+            android:text="@string/std_marks"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"/>
+    </TableRow>
+    <ListView
+        android:id="@+id/get_all_data"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+</TableLayout>
+
+</FrameLayout>
